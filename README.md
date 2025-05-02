@@ -1,3 +1,66 @@
+GUI2
+
+## Description:
+
+This Python-based graphical user interface (GUI) application enables users to perform **dimensionality reduction**, **visualization**, and **classification** on uploaded datasets. The interface is designed for ease of use in educational or research settings and integrates key machine learning techniques such as PCA, LDA, t-SNE, and UMAP.
+
+## Features:
+
+* Upload CSV datasets with labeled data.
+* Select and apply dimensionality reduction methods:
+
+  * PCA (Principal Component Analysis)
+  * LDA (Linear Discriminant Analysis)
+  * t-SNE (t-distributed Stochastic Neighbor Embedding)
+  * UMAP (Uniform Manifold Approximation and Projection)
+* Choose classification algorithms:
+
+  * SVM (Support Vector Machine)
+  * KNN (K-Nearest Neighbors)
+  * Decision Tree
+  * Random Forest
+  * Naive Bayes
+* Visualize results in 2D and 3D.
+* Confusion matrix, accuracy, precision, recall, and F1-score output.
+* Easy-to-use Tkinter GUI.
+
+## Dependencies:
+
+* Python 3.x
+* tkinter
+* pandas
+* numpy
+* matplotlib
+* seaborn
+* sklearn
+* umap-learn
+
+To install required packages:
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn umap-learn
+```
+
+## How to Run:
+
+1. Ensure Python 3 is installed on your system.
+2. Install the required packages listed above.
+3. Run the script:
+
+   ```bash
+   python 2106A049_GUI2.py
+   ```
+4. Use the GUI to upload your dataset and begin analysis.
+
+## Notes:
+
+* The dataset must contain labeled data (i.e., a target column for classification).
+* You may need to adjust column indices or names depending on your dataset format.
+
+## Author:
+
+GUI1
+
 # Advanced Machine Learning GUI
 
 ## Overview
@@ -123,16 +186,3 @@ python ml_gui.py
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## License
-Distributed under the MIT License. See `LICENSE` for more information.
-
-## Contact
-Your Name - youremail@example.com
-
-Project Link: [https://github.com/yourusername/ml-gui](https://github.com/yourusername/ml-gui)
-
-## Acknowledgments
-- Scikit-learn
-- TensorFlow
-- PyQt
-- Matplotlib
